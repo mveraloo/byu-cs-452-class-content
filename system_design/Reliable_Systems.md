@@ -1,5 +1,9 @@
 # Reliable Systems
 
+## Learning Goals
+- Learn how to keep a system running when nodes fail.  
+- Understand trade offs between consistency and availability.
+
 ## Situation
 
 Your system is horizontally scaled with nodes arranged in a **ring using consistent hashing**.  
@@ -21,7 +25,7 @@ Design a system that allows a node to temporarily go down while still giving rea
 To help focus your design, consider:
 - How might you replicate data across multiple nodes?  
 - How will clients continue to access data if a node fails?  
-- What consistency and availability trade-offs should you consider?  
+- What consistency and availability trade offs should you consider?  
 - How might your design affect read/write latency under node failure?  
 - How should the system handle nodes rejoining after a failure?  
 - How does your design scale as the system grows in nodes or data volume?
