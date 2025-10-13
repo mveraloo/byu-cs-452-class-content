@@ -7,6 +7,7 @@ https://www.instaclustr.com/blog/cassandra-vs-mongodb/
 ---
 
 ### 2. Data Infographics (Velocity and Volume)  
+**Volume of data and velocity of data is too much for single server or vertically scaled solutions**
 - 2023 Data: https://www.domo.com/learn/infographic/data-never-sleeps-11  
 - 2024 Data: https://www.domo.com/learn/infographic/data-never-sleeps-12
 
