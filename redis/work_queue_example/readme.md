@@ -1,10 +1,7 @@
 # Work Queue Project (polling, notifications, logging, concurrency, redis)
 
-This sample was taken from a machine learning blog:
+This sample was taken from a machine learning blog. Feel free to read it and understand the intent of the provided code:  
 https://www.pyimagesearch.com/2018/02/05/deep-learning-production-keras-redis-flask-apache/
-
-Feel free to read the blog and understand the intent of the provided code.
-See the other files: https://github.com/byu-cs-452/byu-cs-452-class-content/tree/main/redis/work_queue_example
 
 ![alt text](system_design.png)
 
@@ -36,7 +33,15 @@ You will need to put your own redis connection information in [settings.py](sett
 - Option 2: you could install REDIS locally
 
 If you haven't already, you can set up REDIS following these instructions:  
-https://github.com/byu-cs-452/byu-cs-452-class-content/blob/main/redis/01%20-%20Create%20Redis%20Cluster.md
+https://github.com/byu-cs-452/byu-cs-452-class-content/blob/main/redis/01%20-%20Create%20Redis%20Cluster.md  
+
+### Finding Redis Connection Info
+1. In redis.io, open your database and go to the Configuration tab.
+2. Under Public Endpoint, copy the text before the `:` — that’s your `REDIS_HOST`.
+3. The number after the `:` is your `REDIS_PORT`.
+4. Scroll down to Security, find and set your password, and copy it as `REDIS_PASSWORD`.
+
+## 3. Running the Project
 
 The tutorial talks about apache web server but you can just run the commands in three separate shells (or threads in colab):
 
@@ -55,6 +60,8 @@ Third shell:
 python simple_request.py 
 ```
 
+(Make sure you run these in order, because simple_requst.py need  the servers to be up and running)
+
 # Deliverables (PDF that includes code)
 
 1. What is the "key" in the REDIS database where the web server stores the user's image. What type is the value? Describe the structure of it.
@@ -63,7 +70,6 @@ python simple_request.py 
 
 3. What is the result of sending "[castle_image.jpg](castle_image.jpg)" through simple request?
 What objects with which scores does it identify this as?
-![alt text](castle_image.png)
 
 4. Does the current system have any issues if you were to have multiple font end servers (run_web_server.py) and multiple workes (run_model_server.py)? What issues are there? Update the code to fix one of these issues, test that it works, and explain with words and diagrams what you did to solve it.
 
