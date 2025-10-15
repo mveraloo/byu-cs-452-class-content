@@ -8,6 +8,36 @@ See the other files: https://github.com/byu-cs-452/byu-cs-452-class-content/tree
 
 ![alt text](system_design.png)
 
+## 1. Python Environment
+
+- Recommended to use Python 3.11.3 (Download it here: https://www.python.org/ftp/python/3.11.3/)
+- VSCode is recommended. You can launch VSCode from this directory. Then use the command palette (`Ctrl+Shift+P`) → `"Python: Create Environment"`. Choose Python 3.11.3 and check the box for including `requirements.txt`.
+
+If you didn't check the box to include `requirements.txt`, you can install the dependencies like this:
+
+```
+pip install -r requirements.txt
+```
+
+Or like this:  
+
+```
+pip install tensorflow
+pip install flask
+pip install pillow
+pip install redis
+pip install requests
+```
+
+## 2. Setup settings.py
+
+You will need to put your own redis connection information in [settings.py](settings.py). 
+- Option 1: You can get a free 30mb REDIS account on redis.io
+- Option 2: you could install REDIS locally
+
+If you haven't already, you can set up REDIS following these instructions:  
+https://github.com/byu-cs-452/byu-cs-452-class-content/blob/main/redis/01%20-%20Create%20Redis%20Cluster.md
+
 The tutorial talks about apache web server but you can just run the commands in three separate shells (or threads in colab):
 
 First shell:
@@ -23,23 +53,6 @@ python run_model_server.py
 Third shell:
 ```
 python simple_request.py 
-```
-
-# Setup settings.py
-
-You will need to put your own redis connection information in [settings.py](settings.py). You can get a free 30mb REDIS account on redis.io. Or alternatively you could install REDIS locally.
-
-# Python environment
-- Recommend using Python 3.11.3 https://www.python.org/ftp/python/3.11.3/
-- I like to use VSCode. You can launch vscode from this directory. Then use the command pallete to (ctrl+shift+p) "Python: Create Virtual Environment". Then choose the 3.11.3 version and check the box for including requirements.txt (or pip install it after).
-- pip install -r requirements.txt
-- *or alternatively manually install each package*
-```
-pip install tensorflow
-pip install flask
-pip install pillow
-pip install redis
-pip install requests
 ```
 
 # Deliverables (PDF that includes code)
