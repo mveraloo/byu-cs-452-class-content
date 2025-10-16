@@ -10,7 +10,7 @@ https://www.pyimagesearch.com/2018/02/05/deep-learning-production-keras-redis-fl
 - Recommended to use Python 3.11.3 (Download it here: https://www.python.org/ftp/python/3.11.3/)
 - VSCode is recommended. You can launch VSCode from this directory. Then use the command palette (`Ctrl+Shift+P`) → `"Python: Create Environment"`. Choose Python 3.11.3 and check the box for including `requirements.txt`.
 
-If you didn't check the box to include `requirements.txt`, you can install the dependencies like this:
+If you didn't check the box to include `requirements.txt`, you can install the dependencies from your terminal like this:
 
 ```
 pip install -r requirements.txt
@@ -39,11 +39,13 @@ https://github.com/byu-cs-452/byu-cs-452-class-content/blob/main/redis/01%20-%20
 1. In redis.io, open your database and go to the Configuration tab.
 2. Under Public Endpoint, copy the text before the `:` — that’s your `REDIS_HOST`.
 3. The number after the `:` is your `REDIS_PORT`.
-4. Scroll down to Security, find and set your password, and copy it as `REDIS_PASSWORD`.
+4. Scroll down to Security, then find and set your password, and copy it as `REDIS_PASSWORD`.
 
 ## 3. Running the Project
 
-The tutorial talks about apache web server but you can just run the commands in three separate shells (or threads in colab):
+The tutorial from the blog talks a lot about apache web server, but you can just run the necessary commands in three separate shells (or threads in colab).  
+
+Note: you may have to use the `python3` command instead of `python` if on MacOS or Linux.
 
 First shell:
 ```
