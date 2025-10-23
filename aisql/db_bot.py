@@ -66,22 +66,22 @@ commonSqlOnlyRequest = " Give me a sqlite select statement that answers the ques
 strategies = {
     "zero_shot": setupSqlScript + commonSqlOnlyRequest,
     "single_domain_double_shot": (setupSqlScript +
-                   " Who doesn't have a way for us to text them? " +
-                   " \nSELECT p.person_id, p.name\nFROM person p\nLEFT JOIN phone ph ON p.person_id = ph.person_id AND ph.can_recieve_sms = 1\nWHERE ph.phone_id IS NULL;\n " +
+                   " How many collaborations have been approved? " +
+                   "\nSELECT COUNT(*) FROM Collaboration WHERE collaboration_status = 'Approved';" +
                    commonSqlOnlyRequest)
 }
 
 questions = [
-    "Which are the most awarded dogs?",
-    # "Which dogs have multiple owners?",
-    # "Which people have multiple dogs?",
-    # "What are the top 3 cities represented?",
-    # "What are the names and cities of the dogs who have awards?",
-    # "Who has more than one phone number?",
-    "Who doesn't have a way for us to text them?",
-    "Will we have a problem texting any of the previous award winners?"
-    # "I need insert sql into my tables can you provide good unique data?"
+    "Which collaboration sources has paid me the most money?",
+    "What was my first collaboration? Give me the brand and source.",
+    "What is the total amount of compensation received?",
+    "Show me all brands that are from korea and have sent me products?",
+    "What are the collaborations where I was accepted as an Ambassador not for a product review?",
+    "What brands have sent me products but content is not started yet?",
+    "What collaborations I applied were declined, tell me the brand and source?",
+    "How many videos did I create that was skincare related?",
 ]
+
 
 def sanitizeForJustSql(value):
     gptStartSqlMarker = "```sql"
