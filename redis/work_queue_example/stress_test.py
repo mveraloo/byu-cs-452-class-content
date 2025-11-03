@@ -5,6 +5,9 @@
 from threading import Thread
 import requests
 import time
+from logger import log
+
+
 
 # initialize the Keras REST API endpoint URL along with the input
 # image path
@@ -14,7 +17,7 @@ IMAGE_PATH = "jemma.png"
 # initialize the number of requests for the stress test along with
 # the sleep amount between requests
 NUM_REQUESTS = 50
-NUM_REQUESTS = 500
+#NUM_REQUESTS = 500
 SLEEP_COUNT = 0.05
 
 def call_predict_endpoint(n):
@@ -22,30 +25,35 @@ def call_predict_endpoint(n):
     image = open(IMAGE_PATH, "rb").read()
     payload = {"image": image}
 
+    log("STRESS_TEST", f"Thread {n} started")
+
     # submit the request
     r = requests.post(KERAS_REST_API_URL, files=payload).json()
 
     # ensure the request was sucessful
     if r["success"]:
         print("[INFO] thread {} OK".format(n))
-
+        log("STRESS_TEST", f"Thread {n} finished")
         # loop over the predictions and display them
         for (i, result) in enumerate(r["predictions"]):
             print("{}. {}: {:.4f}".format(i + 1, result["label"], result["probability"]))
+            
 
-
+        
     # otherwise, the request failed
     else:
         print("[INFO] thread {} FAILED".format(n))
+        log("STRESS_TEST", f"Thread {n} finished")
 
 # loop over the number of threads
+threads = []
 for i in range(0, NUM_REQUESTS):
     # start a new thread to call the API
     t = Thread(target=call_predict_endpoint, args=(i,))
     t.daemon = True
+    threads.append(t)
     t.start()
     time.sleep(SLEEP_COUNT)
 
-# insert a long sleep so we can wait until the server is finished
-# processing the images
-time.sleep(300)
+for t in threads:
+    t.join() 

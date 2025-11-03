@@ -1,0 +1,178 @@
+[2025-11-02 18:02:48.502] [WEB_SERVER] [logger.py] Redis notifications enabled
+[2025-11-02 18:03:47.583] [MODEL_SERVER] [logger.py] Started model server
+[2025-11-02 18:04:02.784] [STRESS_TEST] [logger.py] Thread 0 started
+[2025-11-02 18:04:02.834] [STRESS_TEST] [logger.py] Thread 1 started
+[2025-11-02 18:04:02.886] [STRESS_TEST] [logger.py] Thread 2 starteds
+[2025-11-02 18:04:02.936] [STRESS_TEST] [logger.py] Thread 3 started
+[2025-11-02 18:04:02.987] [STRESS_TEST] [logger.py] Thread 4 started
+[2025-11-02 18:04:03.040] [STRESS_TEST] [logger.py] Thread 5 started
+[2025-11-02 18:04:03.090] [STRESS_TEST] [logger.py] Thread 6 started
+[2025-11-02 18:04:03.141] [STRESS_TEST] [logger.py] Thread 7 started
+[2025-11-02 18:04:03.191] [STRESS_TEST] [logger.py] Thread 8 started
+[2025-11-02 18:04:03.243] [STRESS_TEST] [logger.py] Thread 9 started
+[2025-11-02 18:04:03.294] [STRESS_TEST] [logger.py] Thread 10 started
+[2025-11-02 18:04:03.346] [STRESS_TEST] [logger.py] Thread 11 started
+[2025-11-02 18:04:03.396] [STRESS_TEST] [logger.py] Thread 12 started
+[2025-11-02 18:04:03.447] [STRESS_TEST] [logger.py] Thread 13 started
+[2025-11-02 18:04:03.499] [STRESS_TEST] [logger.py] Thread 14 started
+[2025-11-02 18:04:03.550] [STRESS_TEST] [logger.py] Thread 15 started
+[2025-11-02 18:04:03.601] [STRESS_TEST] [logger.py] Thread 16 started
+[2025-11-02 18:04:03.651] [STRESS_TEST] [logger.py] Thread 17 started
+[2025-11-02 18:04:03.702] [STRESS_TEST] [logger.py] Thread 18 started
+[2025-11-02 18:04:03.754] [STRESS_TEST] [logger.py] Thread 19 started
+[2025-11-02 18:04:03.805] [STRESS_TEST] [logger.py] Thread 20 started
+[2025-11-02 18:04:03.856] [STRESS_TEST] [logger.py] Thread 21 started
+[2025-11-02 18:04:03.906] [STRESS_TEST] [logger.py] Thread 22 started
+[2025-11-02 18:04:03.957] [STRESS_TEST] [logger.py] Thread 23 started
+[2025-11-02 18:04:04.009] [STRESS_TEST] [logger.py] Thread 24 started
+[2025-11-02 18:04:04.060] [STRESS_TEST] [logger.py] Thread 25 started
+[2025-11-02 18:04:04.111] [STRESS_TEST] [logger.py] Thread 26 started
+[2025-11-02 18:04:04.164] [STRESS_TEST] [logger.py] Thread 27 started
+[2025-11-02 18:04:04.214] [STRESS_TEST] [logger.py] Thread 28 started
+[2025-11-02 18:04:04.265] [STRESS_TEST] [logger.py] Thread 29 started
+[2025-11-02 18:04:04.316] [STRESS_TEST] [logger.py] Thread 30 started
+[2025-11-02 18:04:04.368] [STRESS_TEST] [logger.py] Thread 31 started
+[2025-11-02 18:04:04.418] [STRESS_TEST] [logger.py] Thread 32 started
+[2025-11-02 18:04:04.471] [STRESS_TEST] [logger.py] Thread 33 started
+[2025-11-02 18:04:04.521] [STRESS_TEST] [logger.py] Thread 34 started
+[2025-11-02 18:04:04.571] [STRESS_TEST] [logger.py] Thread 35 started
+[2025-11-02 18:04:04.623] [STRESS_TEST] [logger.py] Thread 36 started
+[2025-11-02 18:04:04.673] [STRESS_TEST] [logger.py] Thread 37 started
+[2025-11-02 18:04:04.726] [STRESS_TEST] [logger.py] Thread 38 started
+[2025-11-02 18:04:04.775] [STRESS_TEST] [logger.py] Thread 39 started
+[2025-11-02 18:04:04.827] [STRESS_TEST] [logger.py] Thread 40 started
+[2025-11-02 18:04:04.842] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:04.865] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:04.878] [STRESS_TEST] [logger.py] Thread 41 started
+[2025-11-02 18:04:04.914] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:04.928] [STRESS_TEST] [logger.py] Thread 42 started
+[2025-11-02 18:04:04.980] [STRESS_TEST] [logger.py] Thread 43 started
+[2025-11-02 18:04:04.981] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.001] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.031] [STRESS_TEST] [logger.py] Thread 44 started
+[2025-11-02 18:04:05.063] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.081] [STRESS_TEST] [logger.py] Thread 45 started
+[2025-11-02 18:04:05.114] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.132] [STRESS_TEST] [logger.py] Thread 46 started
+[2025-11-02 18:04:05.163] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.184] [STRESS_TEST] [logger.py] Thread 47 started
+[2025-11-02 18:04:05.214] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.234] [STRESS_TEST] [logger.py] Thread 48 started
+[2025-11-02 18:04:05.267] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.285] [STRESS_TEST] [logger.py] Thread 49 started
+[2025-11-02 18:04:05.331] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.382] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.434] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.496] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.543] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.573] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.627] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.679] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.744] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.780] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.832] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.896] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.946] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:05.989] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.046] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.083] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.152] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.202] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.251] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.300] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.346] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.411] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.449] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.468] [MODEL_SERVER] [logger.py] Processing 0b3dd34e-6b6f-462a-a11b-67b4e709ea81
+[2025-11-02 18:04:06.499] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.547] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.604] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.634] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.714] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.796] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.814] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.881] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.916] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:06.952] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.033] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.051] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.116] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.165] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.215] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.265] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:07.318] [WEB_SERVER] [logger.py] Started prediction
+[2025-11-02 18:04:08.228] [MODEL_SERVER] [logger.py] Finished 0b3dd34e-6b6f-462a-a11b-67b4e709ea81
+[2025-11-02 18:04:08.392] [WEB_SERVER] [logger.py] Finished job 0b3dd34e-6b6f-462a-a11b-67b4e709ea81
+[2025-11-02 18:04:08.396] [STRESS_TEST] [logger.py] Thread 3 finished
+[2025-11-02 18:04:08.651] [MODEL_SERVER] [logger.py] Processing 2e5a89f3-6aca-4309-b7d8-59e5b6e9c6d8
+[2025-11-02 18:04:08.834] [MODEL_SERVER] [logger.py] Finished 2e5a89f3-6aca-4309-b7d8-59e5b6e9c6d8
+[2025-11-02 18:04:08.984] [MODEL_SERVER] [logger.py] Processing d84aa71c-608b-44f1-b530-3fb1cfd93c76
+[2025-11-02 18:04:09.167] [MODEL_SERVER] [logger.py] Finished d84aa71c-608b-44f1-b530-3fb1cfd93c76
+[2025-11-02 18:04:09.274] [WEB_SERVER] [logger.py] Finished job 2e5a89f3-6aca-4309-b7d8-59e5b6e9c6d8
+[2025-11-02 18:04:09.274] [MODEL_SERVER] [logger.py] Processing ce7667b4-b7ff-4f1b-94e3-761d55ff35fe
+[2025-11-02 18:04:09.279] [STRESS_TEST] [logger.py] Thread 44 finished
+[2025-11-02 18:04:09.320] [WEB_SERVER] [logger.py] Finished job d84aa71c-608b-44f1-b530-3fb1cfd93c76
+[2025-11-02 18:04:09.327] [STRESS_TEST] [logger.py] Thread 34 finished
+[2025-11-02 18:04:09.511] [MODEL_SERVER] [logger.py] Finished ce7667b4-b7ff-4f1b-94e3-761d55ff35fe
+[2025-11-02 18:04:09.607] [MODEL_SERVER] [logger.py] Processing a36937a5-8ef1-4a9f-b025-08f2e2a03b9d
+[2025-11-02 18:04:09.645] [WEB_SERVER] [logger.py] Finished job ce7667b4-b7ff-4f1b-94e3-761d55ff35fe
+[2025-11-02 18:04:09.651] [STRESS_TEST] [logger.py] Thread 35 finished
+[2025-11-02 18:04:09.784] [MODEL_SERVER] [logger.py] Finished a36937a5-8ef1-4a9f-b025-08f2e2a03b9d
+[2025-11-02 18:04:09.894] [MODEL_SERVER] [logger.py] Processing d61f96ec-5e25-496c-b0be-44cdc7a3ba6e
+[2025-11-02 18:04:10.068] [MODEL_SERVER] [logger.py] Finished d61f96ec-5e25-496c-b0be-44cdc7a3ba6e
+[2025-11-02 18:04:10.167] [MODEL_SERVER] [logger.py] Processing 221406d9-eeeb-4533-888b-cdc1ebc350a4
+[2025-11-02 18:04:10.205] [WEB_SERVER] [logger.py] Finished job d61f96ec-5e25-496c-b0be-44cdc7a3ba6e
+[2025-11-02 18:04:10.211] [STRESS_TEST] [logger.py] Thread 30 finished
+[2025-11-02 18:04:10.229] [WEB_SERVER] [logger.py] Finished job a36937a5-8ef1-4a9f-b025-08f2e2a03b9d
+[2025-11-02 18:04:10.240] [STRESS_TEST] [logger.py] Thread 48 finished
+[2025-11-02 18:04:10.351] [MODEL_SERVER] [logger.py] Finished 221406d9-eeeb-4533-888b-cdc1ebc350a4
+[2025-11-02 18:04:10.451] [MODEL_SERVER] [logger.py] Processing 1d6aa95f-2859-4be0-b461-c7beb9bbbfd9
+[2025-11-02 18:04:10.636] [MODEL_SERVER] [logger.py] Finished 1d6aa95f-2859-4be0-b461-c7beb9bbbfd9
+[2025-11-02 18:04:10.740] [MODEL_SERVER] [logger.py] Processing 0186aaea-7dac-4320-8cd9-6f82d28257cd
+[2025-11-02 18:04:10.783] [WEB_SERVER] [logger.py] Finished job 1d6aa95f-2859-4be0-b461-c7beb9bbbfd9
+[2025-11-02 18:04:10.790] [STRESS_TEST] [logger.py] Thread 5 finished
+[2025-11-02 18:04:10.898] [WEB_SERVER] [logger.py] Finished job 221406d9-eeeb-4533-888b-cdc1ebc350a4
+[2025-11-02 18:04:10.907] [STRESS_TEST] [logger.py] Thread 36 finished
+[2025-11-02 18:04:10.937] [MODEL_SERVER] [logger.py] Finished 0186aaea-7dac-4320-8cd9-6f82d28257cd
+[2025-11-02 18:04:11.037] [MODEL_SERVER] [logger.py] Processing fbf80580-fa5e-4812-bd49-2c5c1996f02c
+[2025-11-02 18:04:11.213] [MODEL_SERVER] [logger.py] Finished fbf80580-fa5e-4812-bd49-2c5c1996f02c
+[2025-11-02 18:04:11.319] [MODEL_SERVER] [logger.py] Processing 6e3e3540-04d9-449c-8423-2a19619d2697
+[2025-11-02 18:04:11.345] [WEB_SERVER] [logger.py] Finished job 0186aaea-7dac-4320-8cd9-6f82d28257cd
+[2025-11-02 18:04:11.347] [WEB_SERVER] [logger.py] Finished job fbf80580-fa5e-4812-bd49-2c5c1996f02c
+[2025-11-02 18:04:11.353] [STRESS_TEST] [logger.py] Thread 4 finished
+[2025-11-02 18:04:11.356] [STRESS_TEST] [logger.py] Thread 10 finished
+[2025-11-02 18:04:11.501] [MODEL_SERVER] [logger.py] Finished 6e3e3540-04d9-449c-8423-2a19619d2697
+[2025-11-02 18:04:11.584] [MODEL_SERVER] [logger.py] Processing 29f3bac9-2fe1-44de-b307-6e312dc3b902
+[2025-11-02 18:04:11.768] [MODEL_SERVER] [logger.py] Finished 29f3bac9-2fe1-44de-b307-6e312dc3b902
+[2025-11-02 18:04:11.851] [MODEL_SERVER] [logger.py] Processing 77cae9c0-7b91-467d-b421-c5446dfb1757
+[2025-11-02 18:04:11.934] [WEB_SERVER] [logger.py] Finished job 6e3e3540-04d9-449c-8423-2a19619d2697
+[2025-11-02 18:04:11.946] [STRESS_TEST] [logger.py] Thread 0 finished
+[2025-11-02 18:04:12.044] [MODEL_SERVER] [logger.py] Finished 77cae9c0-7b91-467d-b421-c5446dfb1757
+[2025-11-02 18:04:12.129] [MODEL_SERVER] [logger.py] Processing 289ca9e4-6667-4ab4-b795-fe487e2dbe50
+[2025-11-02 18:04:12.212] [WEB_SERVER] [logger.py] Finished job 29f3bac9-2fe1-44de-b307-6e312dc3b902
+[2025-11-02 18:04:12.225] [STRESS_TEST] [logger.py] Thread 25 finished
+[2025-11-02 18:04:12.351] [MODEL_SERVER] [logger.py] Finished 289ca9e4-6667-4ab4-b795-fe487e2dbe50
+[2025-11-02 18:04:12.444] [MODEL_SERVER] [logger.py] Processing 8ac05ba9-a3ec-4f04-aea0-90e78fe48eab
+[2025-11-02 18:04:12.496] [WEB_SERVER] [logger.py] Finished job 77cae9c0-7b91-467d-b421-c5446dfb1757
+[2025-11-02 18:04:12.504] [STRESS_TEST] [logger.py] Thread 2 finished
+[2025-11-02 18:04:12.634] [MODEL_SERVER] [logger.py] Finished 8ac05ba9-a3ec-4f04-aea0-90e78fe48eab
+[2025-11-02 18:04:12.718] [MODEL_SERVER] [logger.py] Processing fcbb83d1-9f47-4b5b-9ad4-0aa446cc6165
+[2025-11-02 18:04:12.771] [WEB_SERVER] [logger.py] Finished job 289ca9e4-6667-4ab4-b795-fe487e2dbe50
+[2025-11-02 18:04:12.780] [STRESS_TEST] [logger.py] Thread 9 finished
+[2025-11-02 18:04:12.901] [MODEL_SERVER] [logger.py] Finished fcbb83d1-9f47-4b5b-9ad4-0aa446cc6165
+[2025-11-02 18:04:12.984] [MODEL_SERVER] [logger.py] Processing 4093109a-bfcc-40d7-94d3-431c40aaf3a9
+[2025-11-02 18:04:13.051] [WEB_SERVER] [logger.py] Finished job 8ac05ba9-a3ec-4f04-aea0-90e78fe48eab
+[2025-11-02 18:04:13.055] [STRESS_TEST] [logger.py] Thread 27 finished
+[2025-11-02 18:04:13.167] [MODEL_SERVER] [logger.py] Finished 4093109a-bfcc-40d7-94d3-431c40aaf3a9
+[2025-11-02 18:04:13.251] [MODEL_SERVER] [logger.py] Processing d0984b45-5543-4133-b9e0-0d236a41b9b0
+[2025-11-02 18:04:13.334] [WEB_SERVER] [logger.py] Finished job fcbb83d1-9f47-4b5b-9ad4-0aa446cc6165
+[2025-11-02 18:04:13.344] [STRESS_TEST] [logger.py] Thread 6 finished
+[2025-11-02 18:04:13.447] [MODEL_SERVER] [logger.py] Finished d0984b45-5543-4133-b9e0-0d236a41b9b0
+[2025-11-02 18:04:13.517] [MODEL_SERVER] [logger.py] Processing 18043281-0915-4932-af18-68b67e16c22a
+[2025-11-02 18:04:13.602] [WEB_SERVER] [logger.py] Finished job 4093109a-bfcc-40d7-94d3-431c40aaf3a9
+[2025-11-02 18:04:13.604] [STRESS_TEST] [logger.py] Thread 7 finished
+[2025-11-02 18:04:13.704] [MODEL_SERVER] [logger.py] Finished 18043281-0915-4932-af18-68b67e16c22a
+[2025-11-02 18:04:13.879] [WEB_SERVER] [logger.py] Finished job d0984b45-5543-4133-b9e0-0d236a41b9b0
+[2025-11-02 18:04:13.892] [STRESS_TEST] [logger.py] Thread 8 finished
+[2025-11-02 18:04:14.101] [WEB_SERVER] [logger.py] Finished job 18043281-0915-4932-af18-68b67e16c22a
+[2025-11-02 18:04:14.117] [STRESS_TEST] [logger.py] Thread 1 finished
